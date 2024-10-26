@@ -1,18 +1,23 @@
 import { useState } from 'react'
 
-import './App.css'
+// import './App.css'
+import {Navbar} from "./Components/index"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className='flex'>
+   
+     <div className='bg-[#09090B] w-full '
+  
+     >
+      <div   style={{maxWidth:"48rem"}}>
+        
+      <Navbar/>
+      </div>
 
-      <h1>Vite + React</h1>
-      <p className='text-lg bg-red-700'>some para</p>
-    </div>
-     
+      
+     </div>
       
     </>
   )
