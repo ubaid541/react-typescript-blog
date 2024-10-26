@@ -1,14 +1,35 @@
+// const Navbar = () => {
+//   return (
+//     <header className="fixed top-0 z-20 px-2 py-4">
+//       <div className="flex items-center justify-center space-x-7">
+//         <a className="text-[#89F2EB] text-3xl font-bold" href="/">
+//           Tech News
+//         </a>
+//         <span className="text-lg font-semibold capitalize">
+//           Latest Tech News
+//         </span>
+//       </div>
+//     </header>
+//   );
+// };
+
+// export default Navbar;
+
+import React from "react";
 
 const Navbar = () => {
   return (
-    <header className='fixed top-0 z-20 w-full px-2 py-4'>
-      <div className="flex items-center justify-center space-x-7">
-        <h1 className="text-[#89F2EB] text-3xl font-bold">Tech News</h1>
-        <span className="text-lg font-semibold capitalize">Latest Tech News</span>
-        
+    <header className="fixed top-0 w-full z-20 px-2 py-4 bg-[#09090B]border-b border-gray-800">
+      <div className="text-center  flex justify-center items-center space-x-12">
+        <h1 className="text-[#89F2EB] text-3xl font-bold">
+          🌐 Our Blue Marble
+        </h1>
+        <p className="text-gray-400 text-sm">
+          Thoughts and images from our amazing planet.
+        </p>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
